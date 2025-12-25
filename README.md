@@ -9,15 +9,11 @@
 ## Hardware
 
 - GPU recommended for training and large-scale inference.
-- Tested in our environment on **NVIDIA RTX A6000**.
+- Tested in our environment on **8 NVIDIA RTX 5090 GPUs**.
 
 ---
 
 ## Quickstart
-
-> **Important**  
-> Dataset paths, metadata schema, and CLI arguments are repository-specific and should be documented before release.  
-> The commands below are templates and should be updated to match your local setup and the argument definitions in `train.py` / `test.py`.
 
 ### 1) Training
 
@@ -122,9 +118,6 @@ Graph and transformer modules:
 - Dice and focal-style losses are under `loss/`.
 - Scheduling utilities: `loss_schedule.py`.
 
-> **TODO (recommended before release)**  
-> - Add a short table of key hyperparameters used in the paper (epochs, optimizer, LR schedule, batch size, token dim, etc.).  
-> - Provide pretrained checkpoints (or instructions to request them) if allowed.
 
 ---
 
@@ -155,15 +148,9 @@ python experiments/4_gsva_only.py
 To facilitate reproducibility, we recommend adding the following artifacts to the repository:
 
 ### Pinned environment
-- `requirements.txt` or `environment.yml` with version constraints.
+- `requirements.txt` with version constraints.
 
 ### Dataset schema
-- A clear description of expected metadata fields (e.g., `slide_path`, `patient_id`, `center`, `cancer_type`, `event`, `time`, endpoint definition).
+- A clear description of expected metadata fields ( `slide_path`, `patient_id`, `center`, `cancer_type`, `event`, `time`, endpoint definition).
 - A minimal example CSV (`data/example_metadata.csv`) with dummy values.
 
-### Canonical run commands
-- Exact commands used for each major experiment in the paper (training + inference + mining + transcriptomics).
-- Recommended random seeds and deterministic settings.
-
-### Logging
-- Standardized output directory conventions (checkpoints, tensorboard logs, predictions, region banks).
