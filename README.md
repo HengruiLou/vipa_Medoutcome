@@ -94,7 +94,7 @@ progseer/
 ├── main.py                          # Lightweight entry / orchestration (if used)
 ├── loss_schedule.py                 # Scheduler utilities
 ├── notebooks/                       # Example notebooks (exploration)
-├── log/                             # TensorBoard logs (not recommended to commit)
+├── log/                             # TensorBoard logs
 └── *.ipynb                          # Research notebooks (consider moving under notebooks/)
 ```
 
