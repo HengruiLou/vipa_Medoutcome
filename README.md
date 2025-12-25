@@ -130,22 +130,18 @@ Scripts under `experiments/` support bulk/spatial transcriptomic corroboration w
 - GSVA and pathway-level comparisons
 - intersections between DEG signals and external gene lists/models
 
-Example (templates):
+Example:
 
 ```bash
 python experiments/0_data.py
 python experiments/3_gene_data_analysis.py
 python experiments/4_gsva_only.py
 ```
-
-> **TODO**  
-> Document required inputs/outputs for each experiment script (file paths, expected columns, gene naming conventions, normalization).
-
 ---
 
 ## Reproducibility
 
-To facilitate reproducibility, we recommend adding the following artifacts to the repository:
+In order to ensure the reproducibility of the experimental results, we have attached the following files to the code repository:
 
 ### Pinned environment
 - `requirements.txt` with version constraints.
