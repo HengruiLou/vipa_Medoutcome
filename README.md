@@ -2,7 +2,7 @@
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-brightgreen.svg)](https://creativecommons.org/licenses/by-nc/4.0/) ![PyTorch](https://img.shields.io/badge/PyTorch-2.9-brightgreen) ![Python](https://img.shields.io/badge/Python-3.10.18-brightgreen)
 > Abstract: Phenotypic biomarkers in histopathology hold strong prognostic value but are difficult to discover systematically due to reliance on subjective annotation, poor scalability, and limited reproducibility. We introduce ProgSeer, an end-to-end platform for autonomous phenotypic biomarker discovery. ProgSeer integrates a self-guided foundation model (ProgFM) that analyzes whole-slide images at both tissue and cellular scales, a frequency-differential filtering strategy to prioritize outcome-associated morphological features, and a clinician-in-the-loop validation interface. Applied to 8 multicenter cohorts across 7 cancer types, ProgFM outperforms current state-of-the-art models in prognostic prediction by about 5\% average margin. Using top three frequency-differential filtering strategy, the framework identifies 21 robust biomarkers, including 4 previously underexplored phenotypic biomarkers. All candidates are validated through multimodal evidence—survival stratification, Immunohistochemical visualization, bulk transcriptomics, and spatial transcriptomic colocalization. ProgSeer provides a scalable, reproducible framework for accelerating biomarker-driven precision oncology.
 <p align="center"> 
-<img src="main.jpg">
+<img src="framework.jpg">
 </p>
 
 
