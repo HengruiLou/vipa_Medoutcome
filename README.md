@@ -150,3 +150,7 @@ In order to ensure the reproducibility of the experimental results, we have atta
 - A clear description of expected metadata fields ( `slide_path`, `patient_id`, `center`, `cancer_type`, `event`, `time`, endpoint definition).
 - A minimal example CSV (`data/example_metadata.csv`) with dummy values.
 
+### Full end-to-end Jupyter notebooks
+
+ProgSeer provides complete, end-to-end Jupyter notebooks (`.ipynb`) that guide users through the entire workflow.
+
